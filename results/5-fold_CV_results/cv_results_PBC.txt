@@ -1,0 +1,32 @@
+Dataset   : PBC
+Folds     : 5
+
+--- CV (Val) Sonuclari ---
+Fold 1: Acc=99.51%  Macro F1=99.38%
+Fold 2: Acc=99.73%  Macro F1=99.63%
+Fold 3: Acc=99.78%  Macro F1=99.70%
+Fold 4: Acc=99.84%  Macro F1=99.82%
+Fold 5: Acc=99.73%  Macro F1=99.64%
+
+Accuracy   : 99.72% +/- 0.11%
+Macro F1   : 99.63% +/- 0.14%
+Weighted F1: 99.72% +/- 0.11%
+
+--- Test Sonuclari (Best Fold 4) ---
+Test Accuracy : 99.51%
+Macro F1      : 99.36%
+Weighted F1   : 99.51%
+Cohen's Kappa : 0.9936
+MCC           : 0.9936
+
+              precision    recall  f1-score   support
+
+    Basophil     0.9919    1.0000    0.9959       122
+  Eosinophil     0.9968    0.9968    0.9968       312
+  Lymphocyte     0.9917    0.9835    0.9876       121
+    Monocyte     0.9929    0.9859    0.9894       142
+  Neutrophil     0.9970    1.0000    0.9985       333
+
+    accuracy                         0.9951      1030
+   macro avg     0.9940    0.9932    0.9936      1030
+weighted avg     0.9951    0.9951    0.9951      1030

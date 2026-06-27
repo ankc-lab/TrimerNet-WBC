@@ -1,0 +1,16 @@
+Dataset: LISC (Student DeiT-Small)
+
+Accuracy     : 99.03%
+Macro F1     : 99.02%
+Weighted F1  : 99.03%
+Cohen's Kappa: 0.9879
+MCC          : 0.9879
+
+AUC Basophil: 1.0000
+AUC Eosinophil: 1.0000
+AUC Lymphocyte: 0.9999
+AUC Monocyte: 0.9997
+AUC Neutrophil: 1.0000
+
+Macro AUC   : 0.9999
+Weighted AUC: 0.9999

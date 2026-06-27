@@ -1,0 +1,19 @@
+Dataset       : Raabin_Diffusion
+Test Accuracy : 99.60%
+Weighted F1   : 99.60%
+Teacher Params: 260.7M (3 model)
+Student Params: 21.9M
+Param Reduction: 11.9x
+Speed Gain    : ~33.0x
+
+              precision    recall  f1-score   support
+
+    Basophil     1.0000    1.0000    1.0000        50
+  Eosinophil     1.0000    1.0000    1.0000        50
+  Lymphocyte     0.9804    1.0000    0.9901        50
+    Monocyte     1.0000    0.9800    0.9899        50
+  Neutrophil     1.0000    1.0000    1.0000        50
+
+    accuracy                         0.9960       250
+   macro avg     0.9961    0.9960    0.9960       250
+weighted avg     0.9961    0.9960    0.9960       250

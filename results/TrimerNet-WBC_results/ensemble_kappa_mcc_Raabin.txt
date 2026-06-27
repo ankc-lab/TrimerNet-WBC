@@ -1,0 +1,7 @@
+Dataset: Raabin (Teacher Ensemble)
+
+Accuracy    : 99.57%
+Macro F1    : 99.39%
+Weighted F1 : 99.57%
+Cohen's Kappa: 0.9924
+MCC         : 0.9924

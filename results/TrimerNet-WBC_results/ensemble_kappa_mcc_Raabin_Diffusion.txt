@@ -1,0 +1,7 @@
+Dataset: Raabin_Diffusion (Teacher Ensemble)
+
+Accuracy    : 99.20%
+Macro F1    : 99.20%
+Weighted F1 : 99.20%
+Cohen's Kappa: 0.9900
+MCC         : 0.9900

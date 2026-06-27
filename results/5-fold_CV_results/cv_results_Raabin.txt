@@ -1,0 +1,32 @@
+Dataset   : Raabin
+Folds     : 5
+
+--- CV (Val) Sonuclari ---
+Fold 1: Acc=99.43%  Macro F1=98.79%
+Fold 2: Acc=99.24%  Macro F1=98.38%
+Fold 3: Acc=98.91%  Macro F1=97.45%
+Fold 4: Acc=99.24%  Macro F1=98.19%
+Fold 5: Acc=99.43%  Macro F1=98.78%
+
+Accuracy   : 99.25% +/- 0.19%
+Macro F1   : 98.31% +/- 0.49%
+Weighted F1: 99.25% +/- 0.19%
+
+--- Test Sonuclari (Best Fold 1) ---
+Test Accuracy : 99.49%
+Macro F1      : 99.17%
+Weighted F1   : 99.49%
+Cohen's Kappa : 0.9908
+MCC           : 0.9908
+
+              precision    recall  f1-score   support
+
+    Basophil     1.0000    1.0000    1.0000        30
+  Eosinophil     0.9857    0.9857    0.9857        70
+  Lymphocyte     1.0000    0.9937    0.9968       316
+    Monocyte     1.0000    0.9615    0.9804        52
+  Neutrophil     0.9929    0.9986    0.9957       700
+
+    accuracy                         0.9949      1168
+   macro avg     0.9957    0.9879    0.9917      1168
+weighted avg     0.9949    0.9949    0.9949      1168

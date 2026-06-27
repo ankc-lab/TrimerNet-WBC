@@ -1,0 +1,16 @@
+Dataset: Raabin_Diffusion (Student DeiT-Small)
+
+Accuracy     : 99.60%
+Macro F1     : 99.60%
+Weighted F1  : 99.60%
+Cohen's Kappa: 0.9950
+MCC          : 0.9950
+
+AUC Basophil: 1.0000
+AUC Eosinophil: 1.0000
+AUC Lymphocyte: 1.0000
+AUC Monocyte: 1.0000
+AUC Neutrophil: 1.0000
+
+Macro AUC   : 1.0000
+Weighted AUC: 1.0000

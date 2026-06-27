@@ -1,0 +1,16 @@
+Dataset: PBC (Student DeiT-Small)
+
+Accuracy     : 99.71%
+Macro F1     : 99.63%
+Weighted F1  : 99.71%
+Cohen's Kappa: 0.9962
+MCC          : 0.9962
+
+AUC Basophil: 1.0000
+AUC Eosinophil: 1.0000
+AUC Lymphocyte: 1.0000
+AUC Monocyte: 1.0000
+AUC Neutrophil: 1.0000
+
+Macro AUC   : 1.0000
+Weighted AUC: 1.0000

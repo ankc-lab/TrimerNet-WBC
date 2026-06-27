@@ -1,0 +1,32 @@
+Dataset   : LISC
+Folds     : 5
+
+--- CV (Val) Sonuclari ---
+Fold 1: Acc=100.00%  Macro F1=100.00%
+Fold 2: Acc=100.00%  Macro F1=100.00%
+Fold 3: Acc=100.00%  Macro F1=100.00%
+Fold 4: Acc=100.00%  Macro F1=100.00%
+Fold 5: Acc=100.00%  Macro F1=100.00%
+
+Accuracy   : 100.00% +/- 0.00%
+Macro F1   : 100.00% +/- 0.00%
+Weighted F1: 100.00% +/- 0.00%
+
+--- Test Sonuclari (Best Fold 1) ---
+Test Accuracy : 99.03%
+Macro F1      : 99.04%
+Weighted F1   : 99.03%
+Cohen's Kappa : 0.9879
+MCC           : 0.9880
+
+              precision    recall  f1-score   support
+
+    Basophil     1.0000    1.0000    1.0000        40
+  Eosinophil     1.0000    1.0000    1.0000        43
+  Lymphocyte     1.0000    0.9524    0.9756        42
+    Monocyte     0.9535    1.0000    0.9762        41
+  Neutrophil     1.0000    1.0000    1.0000        40
+
+    accuracy                         0.9903       206
+   macro avg     0.9907    0.9905    0.9904       206
+weighted avg     0.9907    0.9903    0.9903       206

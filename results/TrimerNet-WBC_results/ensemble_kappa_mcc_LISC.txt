@@ -1,0 +1,7 @@
+Dataset: LISC (Teacher Ensemble)
+
+Accuracy    : 99.51%
+Macro F1    : 99.52%
+Weighted F1 : 99.51%
+Cohen's Kappa: 0.9939
+MCC         : 0.9940

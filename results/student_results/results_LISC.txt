@@ -1,0 +1,19 @@
+Dataset       : LISC
+Test Accuracy : 99.03%
+Weighted F1   : 99.03%
+Teacher Params: 260.7M (3 model)
+Student Params: 21.9M
+Param Reduction: 11.9x
+Speed Gain    : ~31.8x
+
+              precision    recall  f1-score   support
+
+    Basophil     0.9756    1.0000    0.9877        40
+  Eosinophil     1.0000    1.0000    1.0000        43
+  Lymphocyte     1.0000    0.9762    0.9880        42
+    Monocyte     0.9756    0.9756    0.9756        41
+  Neutrophil     1.0000    1.0000    1.0000        40
+
+    accuracy                         0.9903       206
+   macro avg     0.9902    0.9904    0.9902       206
+weighted avg     0.9904    0.9903    0.9903       206

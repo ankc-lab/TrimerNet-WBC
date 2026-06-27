@@ -1,0 +1,10 @@
+Dataset: PBC
+
+Basophil: 1.0000
+Eosinophil: 1.0000
+Lymphocyte: 1.0000
+Monocyte: 1.0000
+Neutrophil: 1.0000
+
+Macro AUC: 1.0000
+Weighted AUC: 1.0000

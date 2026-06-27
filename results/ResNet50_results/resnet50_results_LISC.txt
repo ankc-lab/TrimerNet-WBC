@@ -1,0 +1,20 @@
+Dataset       : LISC
+Model         : ResNet50 (CNN baseline)
+Params        : 24.6M
+Test Accuracy : 98.54%
+Macro F1      : 98.57%
+Weighted F1   : 98.55%
+Cohen's Kappa : 0.9818
+MCC           : 0.9820
+
+              precision    recall  f1-score   support
+
+    Basophil     1.0000    1.0000    1.0000        40
+  Eosinophil     1.0000    0.9767    0.9882        43
+  Lymphocyte     1.0000    0.9524    0.9756        42
+    Monocyte     0.9318    1.0000    0.9647        41
+  Neutrophil     1.0000    1.0000    1.0000        40
+
+    accuracy                         0.9854       206
+   macro avg     0.9864    0.9858    0.9857       206
+weighted avg     0.9864    0.9854    0.9855       206

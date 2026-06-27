@@ -1,0 +1,20 @@
+Dataset       : PBC
+Model         : Vanilla DeiT-Small (NO distillation)
+Params        : 21.9M
+Test Accuracy : 99.51%
+Macro F1      : 99.28%
+Weighted F1   : 99.52%
+Cohen's Kappa : 0.9936
+MCC           : 0.9936
+
+              precision    recall  f1-score   support
+
+    Basophil     0.9918    0.9918    0.9918       122
+  Eosinophil     1.0000    0.9968    0.9984       312
+  Lymphocyte     0.9917    0.9835    0.9876       121
+    Monocyte     0.9792    0.9930    0.9860       142
+  Neutrophil     1.0000    1.0000    1.0000       333
+
+    accuracy                         0.9951      1030
+   macro avg     0.9925    0.9930    0.9928      1030
+weighted avg     0.9952    0.9951    0.9952      1030

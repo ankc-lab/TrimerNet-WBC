@@ -1,0 +1,91 @@
+# =============================================================
+#  TrimerNet-WBC — .gitignore
+#  Code + small result figures are version-controlled here.
+#  Large assets (datasets, model weights, synthetic images)
+#  are hosted on Zenodo — see README for the DOI link.
+# =============================================================
+
+# ---- Model weights (host on Zenodo, not GitHub) ----
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# ---- Diffusion model checkpoints (host on Zenodo) ----
+# Trained DDPM UNet weights live under class folders, e.g.:
+#   diffusion/Basophil/model_epoch_0250/
+#   diffusion/Monocyte/model_epoch_0100/
+diffusion/*/model_epoch_*/
+diffusion/*/checkpoints/
+diffusion/*/model/
+diffusion/*/samples/
+
+# ---- Datasets: real images (download from original sources) ----
+# Raabin-WBC, PBC, LISC + the balanced Raabin_Diffusion split.
+train/
+test/
+validation/
+data/
+*/train/
+*/test/
+*/validation/
+**/train/
+**/test/
+**/validation/
+
+# ---- Synthetic images (host on Zenodo) ----
+# DDPM/DDIM-generated minority-class samples (Basophil + Monocyte).
+**/generated/
+**/gen_final_*/
+*_synth_*.png
+
+# ---- Windows download metadata ----
+*:Zone.Identifier
+
+# ---- Helper / scratch files ----
+liste.txt
+tree.txt
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Logs and CSV training logs ----
+*.log
+loss_log.csv
+complexity_results.csv
+
+# ---- Images: ignore stray images everywhere ... ----
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# ---- ... but KEEP the curated result figures ----
+# (confusion matrices, ROC curves, CV charts — small, paper-relevant)
+!results/
+!results/**
+!results/**/*.png
+!results/**/*.txt
+!results/**/*.pdf
+
+# ---- Environment ----
+.venv/
+venv/
+env/
+.env
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

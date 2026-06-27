@@ -1,0 +1,20 @@
+Dataset       : LISC
+Model         : Vanilla DeiT-Small (NO distillation)
+Params        : 21.9M
+Test Accuracy : 98.54%
+Macro F1      : 98.55%
+Weighted F1   : 98.54%
+Cohen's Kappa : 0.9818
+MCC           : 0.9818
+
+              precision    recall  f1-score   support
+
+    Basophil     1.0000    1.0000    1.0000        40
+  Eosinophil     1.0000    1.0000    1.0000        43
+  Lymphocyte     0.9756    0.9524    0.9639        42
+    Monocyte     0.9524    0.9756    0.9639        41
+  Neutrophil     1.0000    1.0000    1.0000        40
+
+    accuracy                         0.9854       206
+   macro avg     0.9856    0.9856    0.9855       206
+weighted avg     0.9855    0.9854    0.9854       206

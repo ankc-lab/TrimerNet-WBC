@@ -1,0 +1,19 @@
+Dataset       : PBC
+Test Accuracy : 99.71%
+Weighted F1   : 99.71%
+Teacher Params: 260.7M (3 model)
+Student Params: 21.9M
+Param Reduction: 11.9x
+Speed Gain    : ~31.5x
+
+              precision    recall  f1-score   support
+
+    Basophil     0.9919    1.0000    0.9959       122
+  Eosinophil     0.9968    0.9968    0.9968       312
+  Lymphocyte     0.9918    1.0000    0.9959       121
+    Monocyte     1.0000    0.9859    0.9929       142
+  Neutrophil     1.0000    1.0000    1.0000       333
+
+    accuracy                         0.9971      1030
+   macro avg     0.9961    0.9965    0.9963      1030
+weighted avg     0.9971    0.9971    0.9971      1030

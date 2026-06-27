@@ -1,0 +1,10 @@
+Dataset: LISC
+
+Basophil: 1.0000
+Eosinophil: 0.9999
+Lymphocyte: 0.9996
+Monocyte: 0.9991
+Neutrophil: 1.0000
+
+Macro AUC: 0.9997
+Weighted AUC: 0.9997

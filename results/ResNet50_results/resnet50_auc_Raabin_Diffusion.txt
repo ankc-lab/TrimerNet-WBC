@@ -1,0 +1,10 @@
+Dataset: Raabin_Diffusion
+
+Basophil: 1.0000
+Eosinophil: 1.0000
+Lymphocyte: 0.9999
+Monocyte: 0.9995
+Neutrophil: 1.0000
+
+Macro AUC: 0.9999
+Weighted AUC: 0.9999

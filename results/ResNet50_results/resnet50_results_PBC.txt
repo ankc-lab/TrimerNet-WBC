@@ -1,0 +1,20 @@
+Dataset       : PBC
+Model         : ResNet50 (CNN baseline)
+Params        : 24.6M
+Test Accuracy : 99.61%
+Macro F1      : 99.51%
+Weighted F1   : 99.61%
+Cohen's Kappa : 0.9949
+MCC           : 0.9949
+
+              precision    recall  f1-score   support
+
+    Basophil     0.9919    1.0000    0.9959       122
+  Eosinophil     1.0000    0.9936    0.9968       312
+  Lymphocyte     0.9836    0.9917    0.9877       121
+    Monocyte     1.0000    0.9930    0.9965       142
+  Neutrophil     0.9970    1.0000    0.9985       333
+
+    accuracy                         0.9961      1030
+   macro avg     0.9945    0.9957    0.9951      1030
+weighted avg     0.9961    0.9961    0.9961      1030
